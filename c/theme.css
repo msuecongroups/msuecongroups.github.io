@@ -14,8 +14,19 @@ h2 {
 	font-weight: normal;
 }
 
+h3 {
+	color:#18453B;
+	font-weight: normal;
+}
+
 a {
 	color:#18453B;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #18453B;
 }
 
 	.image-row {
