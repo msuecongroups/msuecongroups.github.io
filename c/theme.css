@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+h1 {
+	color:#18453B;
+	font-weight: normal;
+}
+
+h2 {
+	color:#18453B;
+	font-weight: normal;
+}
+
+a {
+	color:#18453B;
+}
+
+	.image-row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.image-row img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.image-container img {
+		max-width: 100%;
+		height: 250px;
+		margin: 5px; /* Add margin here */
+	}
+
+	.caption {
+		/* font-size: 14px; */
+		margin-top: 5px;
+		text-align: center;
+	}
