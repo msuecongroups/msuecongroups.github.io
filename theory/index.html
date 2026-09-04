@@ -118,11 +118,13 @@
     }
 
     .lead {
-      max-width: 940px;
+      max-width: none;
+      width: 100%;
       margin: 0 0 44px;
       color: #2f3d38;
       font-size: clamp(1.08rem, 1.7vw, 1.25rem);
-      line-height: 1.78;
+      line-height: 1.68;
+      text-align: left;
     }
 
     hr {
@@ -247,9 +249,12 @@
     }
 
     .faculty-description {
-      max-width: 980px;
+      max-width: none;
+      width: 100%;
       margin: 0;
       color: #33423d;
+      text-align: left;
+      line-height: 1.68;
     }
 
     #pubs + ul,
@@ -308,9 +313,7 @@
 
     /* Justify substantive text blocks while keeping headings, navigation,
        faculty captions, and other short labels naturally aligned. */
-    .lead,
     .hiring-card p,
-    .faculty-description,
     .publications-list li,
     .activity-intro,
     .course-list li {
@@ -343,6 +346,11 @@
       display: block;
       content: "";
       margin-bottom: 7px;
+    }
+
+    .course-title {
+      color: var(--msu-green);
+      font-weight: 750;
     }
 
     .back-to-top {
@@ -396,7 +404,7 @@
       <a href="#faculty">Faculty</a>
       <a href="#pubs">Selected publications</a>
       <a href="#seminars">Research and teaching activities</a>
-      <a href="../index.html">Other groups at MSU</a>
+      <a href="https://econ.msu.edu/research">Other groups at MSU</a>
     </nav>
   </div>
 </header>
@@ -464,171 +472,123 @@ forthcoming
 <ul>
 <hr>-->
 <ul class="publications-list">
-<li><span class="pub-authors">Ce Liu</span>, Coalitions in repeated games (with Nageeb Ali).<br>
-<i>Econometrica</i>, forthcoming.
-<li><span class="pub-authors">Arijit Mukherjee and PhD student Zijian Qi</span>, Optimal job design and information elicitation  (with Luis Vasconcelos),<br>
-<i>Rand Journal of Economics</i>, Spring 2026.
-<li><span class="pub-authors">Ce Liu and Hanzhe Zhang</span>, Self-enforced job matching (with Ziwei Wang),<br>
-<i>American Economic Journal: Microeconomics</i>, May 2026.
-<li><span class="pub-authors">Jay Pil Choi</span>, Tying with network effects (with Doh-Shin Jeon and Michael Whinston), <br>
-<i>American Economic Review</i>, January 2026.
-<!--</ul>
+<li><span class="pub-authors">Tony Doblas-Madrid</span>, Rational Expectations Fools' Bubbles (with Luis Araujo),<br>
+<i>International Economic Review</i>, forthcoming.<li><span class="pub-authors">Ce Liu</span>, Coalitions in repeated games (with Nageeb Ali),<br>
+<i>Econometrica</i>, forthcoming.<li><span class="pub-authors">Arijit Mukherjee</span>, Optimal job design and information elicitation (with Zijian Qi and Luis Vasconcelos),<br>
+<i>Rand Journal of Economics</i>, Spring 2026.<li><span class="pub-authors">Ce Liu and Hanzhe Zhang</span>, Self-enforced job matching (with Ziwei Wang),<br>
+<i>American Economic Journal: Microeconomics</i>, May 2026.<li><span class="pub-authors">Jay Pil Choi</span>, Tying with network effects (with Doh-Shin Jeon and Michael Whinston),<br>
+<i>American Economic Review</i>, January 2026.<!--</ul>
 2025
 <ul>
 <hr>-->
 <li><span class="pub-authors">Jay Pil Choi and Arijit Mukherjee</span>, "Sherlocking" and platform information policy,<br>
-<i>Management Science</i>, November 2025.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Pay it forward: Theory and evidence (with Amanda Chuan),<br>
-<i>Games and Economic Behavior</i>, October 2025.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Changes in marital sorting: Theory and evidence from the US (with Pierre-André Chiappori, Monica Costa Dias, and Costas Meghir),<br>
-<i>Journal of Political Economy</i>, October 2025.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Reputational bargaining with external resolution opportunities (with Mehmet Ekmekci),<br>
-<i>Review of Economic Studies</i>, July 2025.
-<!--</ul>
+<i>Management Science</i>, November 2025.<li><span class="pub-authors">Hanzhe Zhang</span>, Pay it forward: Theory and evidence (with Amanda Chuan),<br>
+<i>Games and Economic Behavior</i>, October 2025.<li><span class="pub-authors">Hanzhe Zhang</span>, Changes in marital sorting: Theory and evidence from the US (with Pierre-André Chiappori, Monica Costa Dias, and Costas Meghir),<br>
+<i>Journal of Political Economy</i>, October 2025.<li><span class="pub-authors">Hanzhe Zhang</span>, Reputational bargaining with external resolution opportunities (with Mehmet Ekmekci),<br>
+<i>Review of Economic Studies</i>, July 2025.<!--</ul>
 2024
 <ul>
 <hr>-->
 <li><span class="pub-authors">Benjamin Bushong</span>, Failures in forecasting: An experiment on interpersonal projection bias (with Tristan Gagnon-Bartsch),<br>
-<i>Management Science</i>, December 2024.
-<li><span class="pub-authors">Jon Eguia</span>, Lognormal (re)distribution: A macro-founded theory of inequality (with  Dimitrios Xefteris),<br>
-<i>European Economic Review</i>, November 2024.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Decentralized matching with transfers: Experimental and noncooperative analyses (with Simin He, Jiabin Wu, and Xun Zhu),<br>
-<i>American Economic Journal: Microeconomics</i>, November 2024.
-<li><span class="pub-authors">Ce Liu</span>, Credible persuasion (with Xiao Lin),<br>
-<i>Journal of Political Economy</i>, July 2024.
-<!--</ul>
+<i>Management Science</i>, December 2024.<li><span class="pub-authors">Jon Eguia</span>, Lognormal (re)distribution: A macro-founded theory of inequality (with  Dimitrios Xefteris),<br>
+<i>European Economic Review</i>, November 2024.<li><span class="pub-authors">Hanzhe Zhang</span>, Decentralized matching with transfers: Experimental and noncooperative analyses (with Simin He, Jiabin Wu, and Xun Zhu),<br>
+<i>American Economic Journal: Microeconomics</i>, November 2024.<li><span class="pub-authors">Ce Liu</span>, Credible persuasion (with Xiao Lin),<br>
+<i>Journal of Political Economy</i>, July 2024.<!--</ul>
 2023
 <ul>
 <hr>-->
 <li><span class="pub-authors">Ce Liu</span>, Stability in repeated matching markets,<br>
-<i>Theoretical Economics</i>, November 2023.
-<li><span class="pub-authors">Arijit Mukherjee</span>, What makes agility fragile? A dynamic theory of organizational rigidity (with Jin Li and Luis Vasconcelos),<br>
-<i>Management Science</i>, June 2023.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Marital preferences and stable matching in cultural evolution (with Victor Hiller and Jiabin Wu),<br>
-<i>Journal of Economic Theory</i>, June 2023.
-<li><span class="pub-authors">Benjamin Bushong</span>, Reference dependence and attribution bias: Evidence from real-effort experiments (with Tristan Gagnon-Bartsch),<br>
-<i>American Economic Journal: Microeconomics</i>, May 2023.
-<li><span class="pub-authors">Jay Pil Choi</span>, Platform design biases in ad-funded two-sided markets (with Doh-Shin Jeon),<br>
-<i>Rand Journal of Economics</i>, April 2023.
-<!--</ul>
+<i>Theoretical Economics</i>, November 2023.<li><span class="pub-authors">Arijit Mukherjee</span>, What makes agility fragile? A dynamic theory of organizational rigidity (with Jin Li and Luis Vasconcelos),<br>
+<i>Management Science</i>, June 2023.<li><span class="pub-authors">Hanzhe Zhang</span>, Marital preferences and stable matching in cultural evolution (with Victor Hiller and Jiabin Wu),<br>
+<i>Journal of Economic Theory</i>, June 2023.<li><span class="pub-authors">Benjamin Bushong</span>, Reference dependence and attribution bias: Evidence from real-effort experiments (with Tristan Gagnon-Bartsch),<br>
+<i>American Economic Journal: Microeconomics</i>, May 2023.<li><span class="pub-authors">Jay Pil Choi</span>, Platform design biases in ad-funded two-sided markets (with Doh-Shin Jeon),<br>
+<i>Rand Journal of Economics</i>, April 2023.<!--</ul>
 2022
 <ul>
 <hr>-->
 <li><span class="pub-authors">Benjamin Bushong</span>, Learning with misattribution of reference dependence (with Tristan Gagnon-Bartsch),<br>
-<i>Journal of Economic Theory</i>, July 2022.
-<li><span class="pub-authors">Chris Ahlin</span>, Group lending with covariate risk (with Godwin Debrah),<br>
-<i>Journal of Development Economics</i>, June 2022.
-<li><span class="pub-authors">Jay Pil Choi</span>, Network externalities, dominant value margins, and equilibrium uniqueness (with Christodoulos Stefanadis),<br>
-<i>International Economic Review</i>, May 2022.
-<li><span class="pub-authors">Antonio Galvao</span>, Do people maximize quantiles? (with Luciano de Castro, Charles Noussair, and Liang Qiao),<br>
-<i>Games and Economic Behavior</i>, March 2022.
-<li><span class="pub-authors">Jon Eguia</span>, Multilateral regime change,<br>
-<i>Journal of Public Economics</i>, January 2022.
-<!--</ul>
+<i>Journal of Economic Theory</i>, July 2022.<li><span class="pub-authors">Chris Ahlin</span>, Group lending with covariate risk (with Godwin Debrah),<br>
+<i>Journal of Development Economics</i>, June 2022.<li><span class="pub-authors">Jay Pil Choi</span>, Network externalities, dominant value margins, and equilibrium uniqueness (with Christodoulos Stefanadis),<br>
+<i>International Economic Review</i>, May 2022.<li><span class="pub-authors">Antonio Galvao</span>, Do people maximize quantiles? (with Luciano de Castro, Charles Noussair, and Liang Qiao),<br>
+<i>Games and Economic Behavior</i>, March 2022.<li><span class="pub-authors">Jon Eguia</span>, Multilateral regime change,<br>
+<i>Journal of Public Economics</i>, January 2022.<!--</ul>
 2021
 <ul>
 <hr>-->
 <li><span class="pub-authors">Jon Eguia</span>, Implementation by vote-buying mechanisms (with Dimitrios Xefteris),<br>
-<i>American Economic Review</i>, September 2021.
-<!--<li>Hanzhe Zhang, Preference evolution in different matching markets (with Jiabin Wu),<br>
-<i>European Economic Review</i>, August 2021.-->
-<li><span class="pub-authors">Arijit Mukherjee</span>, Learning to game the system (with Jin Li and Luis Vasconcelos),<br>
-<i>Review of Economic Studies</i>, July 2021.
-<li><span class="pub-authors">Hanzhe Zhang</span>, An investment-and-marriage model with differential fecundity: on the college gender gap,<br>
-<i>Journal of Political Economy</i>, May 2021.
-<!--<li>Hanzhe Zhang, The optimal sequence of prices and auctions,<br>
-<i>European Economic Review</i>, April 2021.-->
-<li><span class="pub-authors">Jay Pil Choi</span>, A leverage theory of tying in two-sided markets with non-negative price constraints (with Doh-Shin Jeon),<br>
-<i>American Economic Journal: Microeconomics</i>, February 2021.
-<li><span class="pub-authors">Benjamin Bushong</span>, A model of relative thinking (with Matthew Rabin and Joshua Schwartzstein),<br>
-<i>Review of Economic Studies</i>, January 2021.
-<!--</ul>
+<i>American Economic Review</i>, September 2021.<!--<li>Hanzhe Zhang, Preference evolution in different matching markets (with Jiabin Wu),<br>
+<i>European Economic Review</i>, August 2021.-->.<li><span class="pub-authors">Arijit Mukherjee</span>, Learning to game the system (with Jin Li and Luis Vasconcelos),<br>
+<i>Review of Economic Studies</i>, July 2021.<li><span class="pub-authors">Hanzhe Zhang</span>, An investment-and-marriage model with differential fecundity: on the college gender gap,<br>
+<i>Journal of Political Economy</i>, May 2021.<!--<li>Hanzhe Zhang, The optimal sequence of prices and auctions,<br>
+<i>European Economic Review</i>, April 2021.-->.<li><span class="pub-authors">Jay Pil Choi</span>, A leverage theory of tying in two-sided markets with non-negative price constraints (with Doh-Shin Jeon),<br>
+<i>American Economic Journal: Microeconomics</i>, February 2021.<li><span class="pub-authors">Benjamin Bushong</span>, A model of relative thinking (with Matthew Rabin and Joshua Schwartzstein),<br>
+<i>Review of Economic Studies</i>, January 2021.<!--</ul>
 2020
 <ul>
 <hr>-->
 <li><span class="pub-authors">Jay Pil Choi and Arijit Mukherjee</span>, Optimal certification policy, entry, and investment in the presence of public signals,<br>
-<i>Rand Journal of Economics</i>, November 2020.
-<li><span class="pub-authors">Thomas Jeitschko and PhD alum Mark Tremblay</span>, Platform competition with endogenous homing,<br>
-<i>International Economic Review</i>, August 2020.
-<li><span class="pub-authors">Hanzhe Zhang</span>, Pre-matching gambles,<br>
-<i>Games and Economic Behavior</i>, May 2020.
-<li><span class="pub-authors">Ce Liu</span>, Costly information acquisition (with Christopher P. Chambers and John Rehbeck),<br>
-<i>Journal of Economic Theory</i>, March 2020.
-<!--</ul>
+<i>Rand Journal of Economics</i>, November 2020.<li><span class="pub-authors">Thomas Jeitschko and PhD alum Mark Tremblay</span>, Platform competition with endogenous homing,<br>
+<i>International Economic Review</i>, August 2020.<li><span class="pub-authors">Hanzhe Zhang</span>, Pre-matching gambles,<br>
+<i>Games and Economic Behavior</i>, May 2020.<li><span class="pub-authors">Ce Liu</span>, Costly information acquisition (with Christopher P. Chambers and John Rehbeck),<br>
+<i>Journal of Economic Theory</i>, March 2020.<!--</ul>
 2019
 <ul>
 <hr>-->
-<li><span class="pub-authors">Jay Pil Choi</span>, Privacy and personal data collection with information externalities (with Doh-Shin Jeon and Byung-Cheol Kim), <br>
-<i>Journal of Public Economics</i>, May 2019.
-<li><span class="pub-authors">Jon Eguia</span>, Information and targeted spending,<br>
-<i>Theoretical Economics</i>, May 2019.
-<li><span class="pub-authors">Jon Eguia</span>, Tactical extremism,<br>
-<i>American Political Science Review</i>, February 2019.
-<!--</ul>
+<li><span class="pub-authors">Jay Pil Choi</span>, Privacy and personal data collection with information externalities (with Doh-Shin Jeon and Byung-Cheol Kim),<br>
+<i>Journal of Public Economics</i>, May 2019.<li><span class="pub-authors">Jon Eguia</span>, Information and targeted spending,<br>
+<i>Theoretical Economics</i>, May 2019.<li><span class="pub-authors">Jon Eguia</span>, Tactical extremism,<br>
+<i>American Political Science Review</i>, February 2019.<!--</ul>
 2018
 <ul>
 <hr>-->
 <li><span class="pub-authors">Luis Araujo</span>, Optimal monetary interventions in credit markets (with Tai-Wei Hu),<br>
-<i>Journal of Economic Theory</i>, November 2018.
-<li><span class="pub-authors">Arijit Mukherjee</span>, On the optimality of diverse expert panels in persuasion games (with Sourav Bhattacharya and Maria Goltsman),<br>
-<i>Games and Economic Behavior</i>, September 2018.
-<li><span class="pub-authors">Jay Wilson</span>, Tax competition with heterogeneous capital mobility (with Steeve Mongrain),<br>
-<i>Journal of Public Economics</i>, August 2018.
-<li><span class="pub-authors">Jon Eguia</span>, Equilibrium selection in sequential games with imperfect information (with Aniol Llorente-Saguer, Rebecca Morton, and Antonio Nicolò),<br>
-<i>Games and Economic Behavior</i>, May 2018.
-<!--</ul>
+<i>Journal of Economic Theory</i>, November 2018.<li><span class="pub-authors">Arijit Mukherjee</span>, On the optimality of diverse expert panels in persuasion games (with Sourav Bhattacharya and Maria Goltsman),<br>
+<i>Games and Economic Behavior</i>, September 2018.<li><span class="pub-authors">Jay Wilson</span>, Tax competition with heterogeneous capital mobility (with Steeve Mongrain),<br>
+<i>Journal of Public Economics</i>, August 2018.<li><span class="pub-authors">Jon Eguia</span>, Equilibrium selection in sequential games with imperfect information (with Aniol Llorente-Saguer, Rebecca Morton, and Antonio Nicolò),<br>
+<i>Games and Economic Behavior</i>, May 2018.<!--</ul>
 2017
 <ul>
 <hr>-->
 <li><span class="pub-authors">Jon Eguia</span>, Discrimination and assimilation at school,<br>
-<i>Journal of Public Economics</i>, December 2017.
-<li><span class="pub-authors">Carl Davidson, Steve Matusz, and Susan Chun Zhu</span>, Global engagement and the occupational structure of firms (with Fredrik Heyman and Fredrik Sjöholm),<br>
-<i>European Economic Review</i>, November 2017.
-<li><span class="pub-authors">Jon Eguia</span>, Slicing and bundling (with Odilon Câmara),<br>
-<i>Journal of Politics</i>, May 2017.
-<li><span class="pub-authors">Jay Pil Choi</span>, A theory of patent portfolios (with Heiko Gerlach),<br>
-<i>American Economic Journal: Microeconomics</i>, February 2017.
-<li><span class="pub-authors">Chris Ahlin</span>, Matching patterns when group size exceeds two,<br>
-<i>American Economic Journal: Microeconomics</i>, February 2017.
-<!--</ul>
+<i>Journal of Public Economics</i>, December 2017.<li><span class="pub-authors">Carl Davidson, Steve Matusz, and Susan Chun Zhu</span>, Global engagement and the occupational structure of firms (with Fredrik Heyman and Fredrik Sjöholm),<br>
+<i>European Economic Review</i>, November 2017.<li><span class="pub-authors">Jon Eguia</span>, Slicing and bundling (with Odilon Câmara),<br>
+<i>Journal of Politics</i>, May 2017.<li><span class="pub-authors">Jay Pil Choi</span>, A theory of patent portfolios (with Heiko Gerlach),<br>
+<i>American Economic Journal: Microeconomics</i>, February 2017.<li><span class="pub-authors">Chris Ahlin</span>, Matching patterns when group size exceeds two,<br>
+<i>American Economic Journal: Microeconomics</i>, February 2017.<!--</ul>
 2016
 <ul>
 <hr>-->
 <li><span class="pub-authors">Arijit Mukherjee</span>, Relational contracts with subjective peer evaluations (with Joyee Deb and Jin Li),<br>
-<i>Rand Journal of Economics</i>, Spring 2016.
-<li><span class="pub-authors">Tony Doblas-Madrid</span>, A finite model of riding bubbles,<br>
-<i>Journal of Mathematical Economics</i>, May 2016.
-<!--<li>Thomas Jeitschko, Exporting to bypass weak institutions (with Anthony Creane),<br>
-<i>European Economic Review</i>, April 2016.-->
-</ul>
+<i>Rand Journal of Economics</i>, Spring 2016.<!--<li>Thomas Jeitschko, Exporting to bypass weak institutions (with Anthony Creane),<br>
+<i>European Economic Review</i>, April 2016.-->.</ul>
 <hr>
 
 <h2 id="seminars">Research and teaching activities<smaller> <a href="#top">(back to top)</a></smaller></h2>
 <p class="activity-intro">We have
-an external speakers <a href="http://econ.msu.edu/seminars/economic_theory.php">seminar</a>,
-an internal speakers <a href="http://econ.msu.edu/seminars/brown_bag.php">brown bag</a>,
-and a <a href="http://econ.msu.edu/seminars/theory_reading.php">reading group</a>.</p>
+an external speakers <a href="https://econ.msu.edu/news-events/seminars-and-workshops">seminar</a>,
+an internal speakers brown bag,
+and a reading group.</p>
 
 <p class="activity-intro">We offer
 first-year PhD courses (EC812A: Microeconomics I, EC812B: Microeconomics II) and
 second-year PhD courses and related courses in behavioral economics and industrial organization.</p>
 <ul class="course-list">
-<li>EC812A Microeconomics I and Its Mathematical Foundations<br>
+<li><span class="course-title">EC812A Microeconomics I and Its Mathematical Foundations</span><br>
 Decision theory under certainty and under uncertainty. Demand theory. Production and general equilibrium in competitive markets. Social choice. Mathematical foundations, reviewing analysis and linear algebra.
-<li>EC812B Microeconomics II<br>
+<li><span class="course-title">EC812B Microeconomics II</span><br>
 Introduction to social choice. Market failure, including externalities, public goods, imperfect information and market power.
 
-<li>EC810 Institutional and Behavioral Economics<br>
+<li><span class="course-title">EC810 Institutional and Behavioral Economics</span><br>
 Relationships among institutions, individual and collective actions, and economic performance. Public choice, property rights, and behavioral theories of firms and bureaucracies.
-<li>EC860A Industrial Organization I<br>
+<li><span class="course-title">EC860A Industrial Organization I</span><br>
 Key theoretical models in industrial organizations. Topics may include price discrimination, dynamic monopoly, strategic firm behavior in oligopoly, entry deterrence and exclusionary conducts, advertising, platform markets, research and development, and innovation. Offered half of semester.
-<li>EC911A Applied Microeconomic Theory I <br>
+<li><span class="course-title">EC911A Applied Microeconomic Theory I</span><br>
 Analyses of strategic environments through the tools of Game Theory, using equilibrium concepts and refinements in static and dynamic settings focused on economics applications. Offered half of semester.
-<li>EC911B Applied Microeconomic Theory II <br>
+<li><span class="course-title">EC911B Applied Microeconomic Theory II</span><br>
 Models of beliefs, information, and learning with an emphasis on explaining human behavior and applications of economic interest. Offered half of semester.
-<li>EC911C Applied Microeconomic Theory III<br>
+<li><span class="course-title">EC911C Applied Microeconomic Theory III</span><br>
 Applied theory of institution design, including topics such as mechanism design, matching theory, and political economy, with an emphasis on developing model-building skills that complement empirical applications. Offered half of semester.
-<li>EC911D Applied Microeconomic Theory III<br>
+<li><span class="course-title">EC911D Applied Microeconomic Theory IV</span><br>
 Applied theory of contracts and bargaining, including topics in industrial organization, labor and organizational economics, with an emphasis on developing model-building skills that complement empirical applications. Offered half of semester.
 </ul>
 <hr>
