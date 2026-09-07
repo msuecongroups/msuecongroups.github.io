@@ -228,6 +228,23 @@
       background: #e9efed;
     }
 
+    .image-container img.aligned-portrait {
+      width: auto;
+      max-width: 100%;
+      aspect-ratio: 580 / 741;
+      margin-inline: auto;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .image-container.portrait-card {
+      background: #e9efed;
+    }
+
+    .image-container.portrait-card .caption {
+      background: var(--white);
+    }
+
     .caption {
       margin: 0;
       padding: 13px 10px 15px;
@@ -394,13 +411,13 @@
 
 <div class="image-row">
   <div class="image-container"><img src="Davidson.jfif" alt="Carl Davidson" width="200" height="250"><p class="caption"><a href="http://carldavidsonmsu.weebly.com/">Carl Davidson</a></p></div>
-  <div class="image-container"><img src="Hong.jpg" alt="Guangbin Hong" width="200" height="250"><p class="caption"><a href="https://www.guangbinhong.com/">Guangbin Hong</a></p></div>
+  <div class="image-container portrait-card"><img class="aligned-portrait" src="Hong.jpg" alt="Guangbin Hong" width="200" height="250"><p class="caption"><a href="https://www.guangbinhong.com/">Guangbin Hong</a></p></div>
   <div class="image-container"><img src="Steve-Matusz-Spartan-Background.jpg" alt="Steven Matusz" width="200" height="250"><p class="caption"><a href="http://econ.msu.edu/faculty/matusz/Vita.pdf">Steven Matusz</a></p></div>
   <div class="image-container"><img src="Raoul-Minetti.jpg" alt="Raoul Minetti" width="200" height="250"><p class="caption"><a href="https://raoulminetti.weebly.com/">Raoul Minetti</a></p></div>
   <div class="image-container"><img src="jwilson.jfif" alt="John (Jay) Wilson" width="200" height="250"><p class="caption"><a href="http://econ.msu.edu/faculty/wilson/vita2004.pdf">John (Jay) Wilson</a></p></div>
-  <div class="image-container"><img src="zhu.jpg" alt="Chun (Susan) Zhu" width="200" height="250"><p class="caption"><a href="https://sites.google.com/view/zhuc/home">Chun (Susan) Zhu</a></p></div>
+  <div class="image-container portrait-card"><img class="aligned-portrait" src="zhu.jpg" alt="Chun (Susan) Zhu" width="200" height="250"><p class="caption"><a href="https://sites.google.com/view/zhuc/home">Chun (Susan) Zhu</a></p></div>
   <div class="image-container"><img src="ziv.jpg" alt="Oren Ziv" width="200" height="250"><p class="caption"><a href="https://orenziv.org/">Oren Ziv</a></p></div>
-  <div class="image-container"><img src="Zhou.jpg" alt="Eric Wentao Zhou" width="200" height="250"><p class="caption"><a href="https://www.wentaozhou.com/home">Eric Wentao Zhou</a></p></div>
+  <div class="image-container portrait-card"><img class="aligned-portrait" src="Zhou.jpg" alt="Eric Wentao Zhou" width="200" height="250"><p class="caption"><a href="https://www.wentaozhou.com/home">Eric Wentao Zhou</a></p></div>
 </div>
 
 
